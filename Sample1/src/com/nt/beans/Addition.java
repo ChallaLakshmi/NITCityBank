@@ -1,13 +1,12 @@
 package com.nt.beans;
 
 public class Addition {
-    int a=20;
-	 int b=30;
-	 int c=40;
-	 public int x=a+b*c;
+    static int a=20;
+	 static int b=30;
+	static  int c=a+b;
+
 		public static void main(String args[]) {
-			Addition ad = new Addition();
-			System.out.println(ad.x);
+			System.out.println(c);
 			
 		}
 		}
